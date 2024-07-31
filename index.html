@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca São João</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        .container {
+            width: 80%;
+            margin: 2rem auto;
+        }
+
+        .book {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .book img {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 1rem;
+        }
+
+        .book-info {
+            flex: 1;
+        }
+
+        .book-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-author {
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-description {
+            font-size: 0.9rem;
+            color: #333;
+        }
+
+        .section {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biblioteca São João</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#livros">Livros</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container" id="inicio">
+        <div class="section">
+            <div class="section-title">Bem-vindo à Biblioteca São João</div>
+            <p>Explore nossa coleção de livros e descubra novos mundos e conhecimentos. Temos uma variedade de títulos para todos os gostos e idades.</p>
+        </div>
+        <div class="section" id="livros">
+            <div class="section-title">Nossa Coleção</div>
+            <div class="book">
+                <img src="https://via.placeholder.com/100x150" alt="Capa do Livro 1">
+                <div class="book-info">
+                    <div class="book-title">O Morro dos Ventos Uivantes</div>
+                    <div class="book-author">Emily Brontë</div>
+                    <div class="book-description">Uma história de amor intenso e vingança, ambientada nos charnecas de Yorkshire.</div>
+                </div>
+            </div>
+            <div class="book">
+                <img src="https://via.placeholder.com/100x150" alt="Capa do Livro 2">
+                <div class="book-info">
+                    <div class="book-title">1984</div>
+                    <div class="book-author">George Orwell</div>
+                    <div class="book-description">Um romance distópico que explora os perigos do totalitarismo e da vigilância extrema.</div>
+                </div>
+            </div>
+            <div class="book">
+                <img src="https://via.placeholder.com/100x150" alt="Capa do Livro 3">
+                <div class="book-info">
+                    <div class="book-title">Dom Quixote</div>
+                    <div class="book-author">Miguel de Cervantes</div>
+                    <div class="book-description">As aventuras e desventuras de um cavaleiro que luta contra moinhos de vento.</div>
+                </div>
+            </div>
+            <div class="book">
+                <img src="https://via.placeholder.com/100x150" alt="Capa do Livro 4">
+                <div class="book-info">
+                    <div class="book-title">A Metamorfose</div>
+                    <div class="book-author">Franz Kafka</div>
+                    <div class="book-description">A história de Gregor Samsa, que acorda transformado em um inseto monstruoso.</div>
+                </div>
+            </div>
+            <!-- Adicione mais livros conforme necessário -->
+        </div>
+        <div class="section" id="sobre">
+            <div class="section-title">Sobre Nós</div>
+            <p>A Biblioteca São João foi criada com o objetivo de fornecer acesso fácil e rápido a uma vasta coleção de livros de diferentes gêneros. Nossa missão é promover a leitura e o conhecimento para todos.</p>
+        </div>
+        <div class="section" id="contato">
+            <div class="section-title">Contato</div>
+            <p>Se você tiver alguma dúvida ou sugestão, entre em contato conosco:</p>
+            <p>Email: contato@bibliotecasaojoao.com</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Biblioteca São João. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
